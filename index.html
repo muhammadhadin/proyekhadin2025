@@ -1,0 +1,138 @@
+<!-- === index.html === -->
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Proyek- Hadin</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/logo H.png" type="image/x-icon">
+  <!-- Ganti favicon jika mau -->
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Proyek Sekolah - Hadin</a>
+      <nav class="nav">
+        <a href="#about">Tentang</a>
+        <a href="#portfolio">Proyek</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Halo, saya <span class="highlight">Hadin</span></h1>
+          <em>Saya pelajar SMK Taruna Bangsa yang menyukai web development apapun itu yang berkaitan dengan ilmu komputer. Tujuan saya membuat website ini untuk memenuhi tugas sekolah.</em>
+
+          <div class="cta-row">
+            <a class="btn" href="#portfolio">Lihat Proyek</a>
+            <a class="btn ghost" href="#contact">Hubungi Saya</a>
+          </div>
+
+          <div class="socials">
+            <!-- Ganti # dengan link kamu --> 
+             <a href="https://github.com/muhammadhadin">GitHub</a>
+            <a href="https://www.linkedin.com/in/muhammad-hadin-aditya-utama-935739360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a>
+            <a href="https://www.instagram.com/mhmmdhadeen?igsh=MThldmszdXpseXNpNA%3D%3D&utm_source=qr">Instagram</a>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <!-- Ganti 'foto-profil.jpg' dengan nama file foto kamu nanti -->
+          <img src="img/foto profil H.jpg" alt="Foto Profil - NAMA ANDA">
+          <p class="photo-caption">Ini foto profil saya yang berada di Universitas Esa Unggul.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>Tentang Saya</h2>
+      <div class="profile-cards">
+        <div class="card">
+          <h3>Info Singkat</h3>
+          <ul>
+            <li><strong>Nama:</strong> Muhammad Hadin Aditya Utama</li>
+            <li><strong>Umur:</strong> 17</li>
+            <li><strong>Tanggal Lahir:</strong> 23 Februari 2008</li>
+            <li><strong>Tempat Tinggal:</strong> Jl. Victoria Village No.16 Blok V8-9, Bunibakti, Kec. Babelan, Kabupaten Bekasi, Jawa Barat 17610</li>
+            <li><strong>Email:</strong> amuhammadhadin@gmail.com</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Pendidikan</h3>
+          <p>SMK Taruna Bangsa Kota Bekasi 2023 - 2026</p>
+          <h3>Pengalaman</h3>
+          <p>PKL di perusahaan PT. Fujisei Metal Indonesia 09 Januari 2025 - 10 April 2025</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="container skills">
+      <h2>Keahlian</h2>
+      <div class="skill-list">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Git / GitHub</div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="container portfolio">
+      <h2>Project</h2>
+
+      <div class="projects-grid">
+        <article class="project">
+          <img src="img/project1.png" alt="Project 1 screenshot">
+          <h3>Proyek 1 — Profil hadin (template)</h3>
+          <p>Proyek 1. Teknologi: HTML, CSS.</p>
+          <a class="project-link" href="https://hadinpongs.netlify.app/">Lihat detail</a>
+        </article>
+
+        <article class="project">
+          <img src="img/project2.png" alt="Project 2 screenshot">
+          <h3>Proyek 2 — Videotron, Teks Running, Jam, Logo</h3>
+          <p>Proyek 2. Teknologi: HTML, CSS, JavaScript.</p>
+          <a class="project-link" href="https://hadinvidetron.netlify.app/">Lihat detail</a>
+        </article>
+
+        <article class="project">
+          <img src="img/project3.png" alt="Project 3 screenshot">
+          <h3>Proyek 3 — </h3>
+          <p>Proyek 3. Teknologi: HTML, CSS</p>
+          <a class="project-link" >Maaf gabisa di pencet, lihat dari gambarnya aja.</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h2>Kontak</h2>
+      <p>Jika tertarik atau ingin tanya-tanya, hubungi saya di:</p>
+      <ul class="contact-list">
+        <li><strong>Email:</strong> <a href="mailto:amuhammadhadin@gmail.com" style="color: inherit; text-decoration: none;">amuhammadhadin@gmail.com</a></li>
+        <li><strong>WhatsApp:</strong> <a href="https://wa.me/6282113059868" style="color: inherit; text-decoration: none;">+62 821 1305 9868</a></li>
+      </ul>
+
+     
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Hadin — Semua hak cipta.</p>
+    </div>
+  </footer>
+
+  <script>
+    // set tahun otomatis
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+
